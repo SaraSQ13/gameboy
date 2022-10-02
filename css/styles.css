@@ -1,0 +1,237 @@
+/* Presets browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(237, 137, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Game Boy Styles */
+
+.gameboy {
+    width: 300px;
+    height: 500px;
+    background-color: rgb(19, 235, 202);
+    border-radius: 20% 20% 50% 50% / 1% 1% 5% 5%;
+    box-shadow: 3px, 10px, 10px rgba(0, 0, 0, 0, 4);
+}
+
+/* Game Boy Screen */
+
+.gameboy-screen {
+    width: 270px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 15px 0px 15px;
+    padding-top: 25px;
+    background-color: rgb(4, 0, 0);
+    border-radius: 5%;
+}
+
+/* Game Boy Screen Panel */
+
+.screen-panel {
+    height: 260px;
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Game Boy Screen Panel - Power */
+
+.panel-power {
+    width: 45px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-power>div {
+    margin-top: 5px
+}
+
+.panel-power-light {
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+
+.panel-power-text {
+    color: #bbb;
+    font-size: 7px;
+}
+
+/* Game Boy Screen Panel - LCD */
+
+.panel-lcd {
+    height: 180px;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#1b1a1a, #242323) 50% 50%/100%;
+
+}
+
+/* Game Boy Screen- Logo */
+
+.screen-logo {
+    width: 270px;
+    height: 55px;
+
+}
+
+.screen-logo-img {
+    width: 180px;
+    height: 50px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+/* Game Boy Buttons */
+
+.gameboy-buttons {
+    height: 225px;
+    width: 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nintendo-logo {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+/* Game Boy Buttons Play Wrapper */
+
+.buttons-play-wrapper {
+    width: 270px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons-dpad {
+    width: 135px;
+    height: 100px;
+
+}
+
+.dpad-center {
+    width: 22px;
+    height: 22px;
+    background-color: #212F3D;
+    position: relative;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.dpad-y {
+    width: 25px;
+    height: 75px;
+    background-color: black;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    top: 12.5px;
+    left: 35px;
+
+}
+
+.dpad-x {
+    width: 75px;
+    height: 25px;
+    background-color: black;
+    border-radius: 3px;
+    position: relative;
+    left: 10px;
+    bottom: 37.5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+/* Game Boy Buttons Action */
+
+.buttons-action {
+    width: 135px;
+    height: 100px;
+    color:#212F3D;
+
+}
+
+.action {
+    width: 33px;
+    height: 33px;
+    background-color: #000;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 2px 2px 2px #bbb;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 33px;
+
+}
+
+.action-a {
+
+    top: 25px;
+    left: 85px;
+
+}
+
+.action-b {
+    top: 20px;
+    left: 50px;
+
+}
+/* Game Boy Buttons Config */
+
+.buttons-config {
+    width: 270px;
+    height: 50px;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.config-wrapper {
+    width: 30px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.config-button {
+    width: 7px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: rgb(43, 43, 43);
+    transform: rotate(90deg);
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0, 2);
+}
