@@ -1,4 +1,4 @@
-# CSS GameBoy color
+# CSS GAME BOY Color
 Game Boy Color made with CSS and HTML. It uses some JavaScript to turn on/off the console .    
 
 ![gameboy](assets/gameboy_project.png)
