@@ -7,7 +7,7 @@ Game Boy Color made with CSS and HTML. It uses some JavaScript to turn on/off th
 
 
 ### Overview
-An awesome GameBoy illustration created with CSS and some HTML. Effects made with a button in HTML and simple code Javascript.
+A GameBoy illustration created with different CSS styles like flex, shadows  and some HTML. Effects made with a button in HTML and simple code of Javascript.
 
 
 
