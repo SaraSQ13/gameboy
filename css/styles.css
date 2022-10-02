@@ -83,6 +83,12 @@ body {
     background: linear-gradient(#1b1a1a, #242323) 50% 50%/100%;
 
 }
+.panel-lcd-on{
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    display: block;
+}
 
 /* Game Boy Screen- Logo */
 

@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/styles.css" type="text/css" rel="stylesheet">
+  <script src="js/gameboy.js"></script>
   <title>Game Boy</title>
 </head>
 
@@ -14,10 +15,10 @@
     <div class="gameboy-screen">
       <div class="screen-panel">
         <div class="panel-power">
-          <div class="panel-power-light"></div>
+          <div id="power-light" class="panel-power-light"></div>
           <div class="panel-power-text">POWER</div>
         </div>
-        <div class="panel-lcd"></div>
+        <div id="lcd-screen" class="panel-lcd"></div>
       </div>
       <div class="screen-logo">
         <img class="screen-logo-img" src="assets/gameboy_logo.png" alt="Gameboy color logo" />
@@ -50,6 +51,8 @@
       </div>
     </div>
   </div>
+  <button onclick="turnOn()">ON</button>
+    <button onclick="turnOff()">OFF</button>
 </body>
 
 </html>
